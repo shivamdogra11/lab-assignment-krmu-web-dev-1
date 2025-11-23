@@ -1,0 +1,132 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #a873a6bb;
+    color: #322a2a;
+    margin: 0px;
+}
+header{
+    background-color: #8e3b87eb;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    position: sticky;
+    top: 10px;
+    text-shadow: black 4px 2px 4px;}
+    
+img{
+    width:330px;
+    height:300px
+}
+nav a {
+    color: #b9adad;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    box-shadow: black 0px 1px 1px;}
+     
+}
+nav a:hover {
+    color: #4d585d;
+}
+article h1{
+    text-align: center;
+    color: rgb(38, 36, 36);
+    text-shadow: #557d91 2px 2px 4px;
+}
+hr {
+    border: 1px solid rgb(99, 83, 94);
+    margin: 40px 0;
+}
+#about{
+    text-align: center;
+    text-shadow: #b782a6 2px 2px 2px;
+}
+p{
+    font-size: small;
+    text-align: center;
+}
+#project{
+    text-align: center;
+}
+#project ul li{
+    background-color: rgb(154, 110, 155);
+    list-style-type:none;
+    width: 600px;
+    margin-left:30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 50px 0;
+    box-shadow: 0 0 20px rgba(134, 111, 145, 0.814);
+}
+.tech{
+    text-align: center;
+    text-shadow: #7b4c60 1px 1px 1px;
+}
+table {
+    width: 40%;        
+    border-collapse: collapse;  
+    margin-top: 20px;
+    margin-left: 30%;
+    font-size: 1em;
+    background-color: #d7b8ca;
+    border-radius: 8px;
+    box-shadow: 0 0 20px  rgba(35, 16, 130, 0.814);
+}
+th {
+    background-color: #7c3b6ac4;
+    color: rgb(45, 42, 42);
+    padding: 12px;
+}
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ab8181;
+}
+tr:hover {
+    background-color: #917b8fc0;
+    transition: background-color 0.3s;
+}
+#contact{
+    text-align: center;
+    background-color: rgb(158, 79, 113);
+    box-shadow: 0 0 20px rgba(35, 16, 130, 0.814); 
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 30%;
+    text-shadow: #7d697d 2px 2px 2px;
+}
+#contact input{
+    width: 300px;
+    padding: 15px 0px 15px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #d7b8ca;
+}
+#contact textarea{
+    background-color: #b9a6af;
+}
+.sub{
+    padding: 17px 60px;
+    font-size: 16px;
+    background-color: #5a3f57;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.sub:hover{
+    background-color:#856695 ;
+    cursor: pointer;
+}
+footer a{
+    text-decoration: none;
+    background-color:#70529f;
+    border-radius: 10px;
+    padding: 15px 50px;
+    color: rgb(20, 5, 47);
+    margin-left: 85%;
+}
+footer a:hover{
+    background-color: #806262;
+
+}
